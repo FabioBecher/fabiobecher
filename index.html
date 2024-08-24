@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegação, menu principal -->
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre">
+        <h1>Sobre Mim</h1>
+        <img id="perfil" src="perfil.jpg" alt="Foto de Fabio Becher" class="Perfil Profissional" width="40%" height="40%">
+        <p>Olá, meu nome é Fabio. Em busca de novos desafios, venho me dedicando em uma migração de carreira, realizando 
+        cursos em escolas de tecnologia e em um curso superior na área de Tecnologia da Informação. Atualmente estudo na
+        Universidade UNINTER, realizando o curso superior de Tecnologia em Análise e Desenvolvimento de Sistemas.
+        Minha trajetória profissional iniciou na indústria metalúrgica e nesta área atuei por mais de 20 anos, 
+        passando também por áreas administrativas como auxiliar administrativo e inspetor de alunos. Atuei também 
+        como autônomo na área da fotografia de eventos por alguns anos. Atualmente busco oportunidades de estágio 
+        na área de desenvolvimento de sistemas e da tecnologia da informação.</p>
+    </section>
+
+    <!-- Seção Formação -->
+    <section id="formacao">
+        <h1>Formação</h1>
+        <p>Sou formado em Tecnologia em Automação Industrial, tenho formação técnica em mecânica industrial e mecânica básica. 
+        Possuo conhecimento básico na língua inglesa.
+        Atualmente estou cursando uma graduação em Tecnologia em Análise e Desenvolvimento de Sistemas</p>
+    </section>
+
+    <!-- Seção Portfólio -->
+    <section id="portfolio">
+        <h1>Portfólio</h1>
+        <p>Alguns projetos realizados em outros cursos</p>
+        <ul>
+            <li><a href="https://github.com/FabioBecher/Curso-Introducao-python" target="_blank">linkedin</a></li>
+            <li><a href="https://github.com/FabioBecher/Jogo-de-Bingo" target="_blank">GitHub</a></li>
+        </ul>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h1>Contato</h1>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
